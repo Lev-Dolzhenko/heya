@@ -1,0 +1,117 @@
+.recommend {
+  margin-bottom: 73px;
+}
+
+.recommend__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-top: -200px;
+
+  border: 1px solid rgb(229, 234, 244);
+  border-radius: 16px;
+  box-shadow: 0px 10px 35px 0px rgba(0, 0, 0, 0.2);
+  background: $colorWhite;
+}
+
+.recommend__card_image {
+  img {
+    border-radius: 16px 0 0 16px;
+  }
+}
+
+.recommend__card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+
+  padding: 32px;
+}
+.recommend__card_info_tag {
+  border-radius: 2000px;
+  background: rgba(54, 179, 126, 0.1);
+  padding: 5px 10px;
+
+  color: $colorAccent;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  margin-bottom: 16px;
+}
+.recommend__card_info_title {
+  margin-bottom: 20px;
+}
+.recommend__card_info_subtitle {
+  margin-bottom: 43px;
+}
+.recommend__card_info_user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.recommend__card_user_text {
+  display: flex;
+  align-items: center;
+
+  column-gap: 12px;
+}
+.user_info_avatar {
+}
+.user_info_name {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+
+  span {
+    color: $colorTitle;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+.user_info_name_wrapper {
+  display: flex;
+  align-items: center;
+
+  column-gap: 8px;
+
+  span {
+    color: $colorAccentMuted;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
+
+.user_info_name_wrapper_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 16px;
+  height: 16px;
+  background-color: rgba(54, 179, 126, 0.15);
+  border-radius: 50%;
+}
+
+.recommend__card_user_date {
+  span {
+    color: $colorAccentMuted;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: right;
+  }
+}

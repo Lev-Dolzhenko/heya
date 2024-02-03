@@ -32,20 +32,48 @@ a {
   text-align: center;
 }
 
-.titleH2 {
-  // font-size: clamp();
-  // font-weight: ;
-  // line-height: ;
+.title2 {
+  color: $colorTitle;
+  font-family: $gotham;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.2px;
+  text-align: left;
+
+  &_popular {
+    color: $colorWhite;
+  }
 }
 
-.titleH3 {
-  // font-size: clamp();
-  // font-weight: ;
-  // line-height: ;
+.title3 {
+  color: $colorWhite;
+  font-family: $gotham;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  &_small {
+  }
 }
 
 .subtitleP {
-  // font-size: clamp();
-  // font-weight: ;
-  // line-height: ;
+  color: $colorAccentMuted;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+
+  &_small {
+    color: $colorWhite;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    
+  }
 }

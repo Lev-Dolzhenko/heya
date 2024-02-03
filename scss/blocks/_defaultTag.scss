@@ -1,0 +1,16 @@
+.default_tag {
+  border-radius: 2000px;
+  background: $colorWhite;
+  padding: 5px 10px;
+
+  color: $colorTag;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  margin-bottom: 280px;
+
+  z-index: 2;
+}

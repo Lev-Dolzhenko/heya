@@ -1,0 +1,48 @@
+.default__info {
+    margin-bottom: 48px;
+}
+.default__info_title {
+  margin-bottom: 16px;
+}
+
+.default__info_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.default__info_subtitle {
+  max-width: 600px;
+}
+
+.default__info_button {
+  button {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+
+    border: 2px solid $colorAccent;
+    border-radius: 8px;
+    padding: 13px 24px;
+
+    color: $colorAccent;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    transition: background-color 0.2s linear;
+
+    &:hover {
+      background-color: $colorAccent;
+      color: $colorWhite;
+
+      svg {
+        path {
+          fill: $colorWhite;
+        }
+      }
+    }
+  }
+}

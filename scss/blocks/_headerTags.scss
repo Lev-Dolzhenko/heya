@@ -1,0 +1,41 @@
+.header__tags {
+  display: flex;
+  align-items: center;
+  column-gap: 17px;
+}
+.header__tags_subtitle {
+  color: $colorWhite;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header__tags_list {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.header__tags_item {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  backdrop-filter: blur(20px);
+  background: rgba(0, 0, 0, 0.2);
+
+  padding: 6px 17px;
+
+  color: $colorWhite;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+
+  transition: transform 0.1s linear;
+
+  &:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+  }
+}

@@ -1,0 +1,51 @@
+body {
+  font-family: $openSans;
+  // color: ;
+  font-size: 16px;
+}
+
+a {
+  transition: color 0.2s linear;
+
+  &:hover {
+    // color: $fff;
+  }
+}
+
+.container {
+  max-width: 1180px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none !important;
+}
+
+.title1 {
+  color: $colorWhite;
+  font-family: $gotham;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.2px;
+  text-align: center;
+}
+
+.titleH2 {
+  // font-size: clamp();
+  // font-weight: ;
+  // line-height: ;
+}
+
+.titleH3 {
+  // font-size: clamp();
+  // font-weight: ;
+  // line-height: ;
+}
+
+.subtitleP {
+  // font-size: clamp();
+  // font-weight: ;
+  // line-height: ;
+}

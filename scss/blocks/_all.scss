@@ -90,3 +90,10 @@
 .all__row_card_three {
   background-image: url(/content/main/all/imageSmallThree.jpeg);
 }
+
+@include mediaTabletLarge {
+  .all__row_cards {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+}

@@ -67,3 +67,18 @@
     cursor: pointer;
   }
 }
+
+.header__row_nav_burger {
+  display: none;
+}
+
+@include mediaTabletSmall {
+  .header__row_nav_burger {
+    display: block;
+  }
+
+  .header__row_nav {
+    display: none;
+  }
+
+}

@@ -1,5 +1,6 @@
 .small_row {
-  display: flex;
+  display: grid;  
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
   column-gap: 30px;
 }
@@ -8,6 +9,8 @@
   display: flex;
   align-items: center;
   column-gap: 30px;
+
+  height: 100%;
 }
 
 .small__row_card {
@@ -15,7 +18,12 @@
   flex-direction: column;
   align-items: baseline;
 
-  padding: 32px 48px 48px 26px;
+  height: 100%;
+
+
+  padding: clamp(20px, 0.977rem + 1.36vw, 32px)
+    clamp(24px, 0.955rem + 2.73vw, 48px) clamp(24px, 0.955rem + 2.73vw, 48px)
+    clamp(18px, 0.943rem + 0.91vw, 26px);
   border-radius: 8px;
 
   position: relative;
@@ -55,12 +63,28 @@
 }
 
 .small__row_card_title {
-    margin-top: 270px;
-  margin-bottom: 32px;
+  margin-top: clamp(80px, 0.682rem + 21.59vw, 270px);
+  margin-bottom: clamp(20px, 0.977rem + 1.36vw, 32px);
 
   z-index: 2;
 }
 
 .small__row_card_subtitle {
   z-index: 2;
+  margin-bottom: 10px;
+}
+
+@include mediaTabletLarge {
+  .small_row {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+
+  .small__row_cards {
+    width: 100%;
+  }
+
+  .small__row_card {
+    width: 100%;
+  }
 }

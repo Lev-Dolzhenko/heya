@@ -10,7 +10,7 @@
   letter-spacing: 0px;
   text-align: center;
 
-  margin-bottom: 280px;
+  margin-bottom: clamp(100px, 2.159rem + 20.45vw, 280px);
 
   z-index: 2;
 }

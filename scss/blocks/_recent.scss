@@ -1,11 +1,15 @@
+.recent {
+  margin-bottom: clamp(40px, 1.227rem + 6.36vw, 96px);
+}
+
 .recent__row_card_one {
-    background-image: url(/content/main/recent/imageOne.jpeg);
+  background-image: url(/content/main/recent/imageOne.jpeg);
 }
 
 .recent__row_card_two {
-    background-image: url(/content/main/recent/imageTwo.jpeg);
+  background-image: url(/content/main/recent/imageTwo.jpeg);
 }
 
 .recent__row_card_three {
-    background-image: url(/content/main/recent/imageThree.jpeg);
+  background-image: url(/content/main/recent/imageThree.jpeg);
 }

@@ -1,6 +1,8 @@
 .header__tags {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  row-gap: 10px;
   column-gap: 17px;
 }
 .header__tags_subtitle {
@@ -14,6 +16,8 @@
 .header__tags_list {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  row-gap: 5px;
   column-gap: 16px;
 }
 

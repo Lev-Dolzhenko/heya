@@ -1,6 +1,6 @@
 .footer_nav {
-  padding-top: 128px;
-  padding-bottom: 186px;
+  padding-top: clamp(60px, 2.205rem + 7.73vw, 128px);
+  padding-bottom: clamp(70px, 1.739rem + 13.18vw, 186px);
 
   background-color: $colorFooter;
 }
@@ -64,3 +64,11 @@
   margin-bottom: 31px;
 }
 
+
+@include mediaTabletLarge {
+  .footer__grid {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}

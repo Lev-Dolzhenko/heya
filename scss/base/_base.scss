@@ -25,7 +25,7 @@ a {
 .title1 {
   color: $colorWhite;
   font-family: $gotham;
-  font-size: 48px;
+  font-size: clamp(30px, 1.466rem + 2.05vw, 48px);
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.2px;
@@ -35,9 +35,9 @@ a {
 .title2 {
   color: $colorTitle;
   font-family: $gotham;
-  font-size: 36px;
+  font-size: clamp(22px, 1.057rem + 1.59vw, 36px);
   font-weight: 700;
-  line-height: 48px;
+  line-height: clamp(30px, 1.466rem + 2.05vw, 48px);
   letter-spacing: 0.2px;
   text-align: left;
 
@@ -57,7 +57,7 @@ a {
 .title3 {
   color: $colorWhite;
   font-family: $gotham;
-  font-size: 28px;
+  font-size: clamp(20px, 1.068rem + 0.91vw, 28px);
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0.2px;
@@ -76,17 +76,17 @@ a {
 
 .subtitleP {
   color: $colorAccentMuted;
-  font-size: 18px;
+  font-size: clamp(15px, 0.869rem + 0.34vw, 18px);
   font-weight: 400;
-  line-height: 32px;
+  line-height: clamp(20px, 0.977rem + 1.36vw, 32px);
   letter-spacing: 0px;
   text-align: left;
 
   &_small {
     color: $colorWhite;
-    font-size: 20px;
+    font-size: clamp(15px, 0.869rem + 0.34vw, 18px);
     font-weight: 400;
-    line-height: 30px;
+    line-height: clamp(20px, 0.977rem + 1.36vw, 32px);
     letter-spacing: 0px;
     text-align: left;
   }
@@ -97,9 +97,9 @@ a {
 
   &_card {
     color: $colorAccentMuted;
-    font-size: 18px;
+    font-size: clamp(15px, 0.869rem + 0.34vw, 18px);
     font-weight: 400;
-    line-height: 32px;
+    line-height: clamp(20px, 0.977rem + 1.36vw, 32px);
     letter-spacing: 0px;
     text-align: left;
   }

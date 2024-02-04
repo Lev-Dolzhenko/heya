@@ -1,5 +1,5 @@
 .popular {
-  margin-bottom: 96px;
+  margin-bottom: clamp(40px, 1.227rem + 6.36vw, 96px);
 }
 
 .popular__row {
@@ -57,7 +57,7 @@
 }
 
 .popular__row_card_title {
-  margin-bottom: 32px;
+  margin-bottom: clamp(10px, 0.125rem + 2.5vw, 32px);
 
   z-index: 2;
 }
@@ -68,4 +68,12 @@
 
 .popular__row_card_two {
   background-image: url(/content/main/popular/popularTwo.jpeg);
+}
+
+
+@include mediaTabletLarge {
+  .popular__row_cards {
+    flex-direction: column;
+    row-gap: 30px;
+  }
 }

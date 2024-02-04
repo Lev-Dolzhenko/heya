@@ -1,6 +1,6 @@
 .footer__copyright {
   background-color: $colorFooter;
-  padding-bottom: 82px;
+  padding-bottom: clamp(40px, 1.545rem + 4.77vw, 82px);
 
   strong {
     text-align: center;

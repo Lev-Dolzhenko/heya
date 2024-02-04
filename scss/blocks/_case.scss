@@ -1,9 +1,10 @@
 .case {
   // position: relative;
+  margin-bottom: clamp(40px, 1.227rem + 6.36vw, 96px);
 }
 
 .case__swiper_wrapper {
-    position: relative;
+  position: relative;
 }
 
 .case__card {
@@ -32,16 +33,16 @@
   flex-direction: column;
   align-items: self-start;
 
-  padding: 32px;
+  padding: clamp(15px, 0.551rem + 1.93vw, 32px);
 }
 
 .case__card_info_tag {
   border-radius: 2000px;
   background: rgba(54, 179, 126, 0.1);
-  padding: 5px 10px;
+  padding: clamp(3px, 0.142rem + 0.23vw, 5px) clamp(8px, 0.455rem + 0.23vw, 10px);
 
   color: $colorAccent;
-  font-size: 16px;
+  font-size: clamp(12px, 0.659rem + 0.45vw, 16px);
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0px;
@@ -51,11 +52,11 @@
 }
 
 .case__card_info_title {
-  margin-bottom: 20px;
+  margin-bottom: clamp(10px, 0.398rem + 1.14vw, 20px);
 }
 
 .case__card_info_subtitle {
-  margin-bottom: 43px;
+  margin-bottom: clamp(20px, 0.727rem + 2.61vw, 43px);
 }
 
 .case__card_info_user {
@@ -126,11 +127,41 @@
 }
 
 .case-button-prev {
-    position: absolute;
-    left: -25px;
+  position: absolute;
+  left: -25px;
 }
 
 .case-button-next {
-    position: absolute;
-    right: -25px;
+  position: absolute;
+  right: -25px;
+}
+
+@media screen and (max-width: 1250px){
+  .case__buttons_wrapper {
+      top: unset;
+      transform: translateY(0)
+  }
+
+  .case-button-prev {
+    position: unset;
+  }
+
+  .case-button-next {
+    position: unset;
+  }
+}
+
+@include mediaTabletSmall {
+  .case__card {
+    grid-template-columns: 1fr;
+  }
+
+  .case__card_image {
+    img {
+      border-radius: 16px 16px 0 0;
+    }
+  }
+  .case__buttons_wrapper {
+    display: none;
+  }
 }

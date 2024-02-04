@@ -1,7 +1,7 @@
 .header__search {
 }
 .header__search_title {
-  margin-bottom: 40px;
+  margin-bottom: clamp(20px, 0.795rem + 2.27vw, 40px);
 }
 
 .header__search_form {
@@ -14,7 +14,7 @@
 
     border-radius: 8px;
     background: $colorWhite;
-    padding: 8px;
+    padding: clamp(4px, 0.159rem + 0.45vw, 8px);
 
     max-width: 760px;
 
@@ -34,7 +34,7 @@
 
     border-radius: 8px;
     background: $colorAccent;
-    padding: 9px 20px;
+    padding: 9px clamp(10px, 0.398rem + 1.14vw, 20px);
 
     color: $colorWhite;
     font-weight: 700;

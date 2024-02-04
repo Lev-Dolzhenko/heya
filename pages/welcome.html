@@ -16,7 +16,7 @@
     />
   </head>
   <body>
-    <header class="header none">
+    <header class="header">
       <div class="container">
         <div class="header__row">
           <div class="header__row_logotype">
@@ -74,7 +74,7 @@
       </div>
     </header>
     <main class="main">
-      <section class="recommend none">
+      <section class="recommend">
         <div class="container">
           <div class="recommend__card">
             <div class="recommend__card_image">
@@ -129,7 +129,7 @@
           </div>
         </div>
       </section>
-      <section class="popular none">
+      <section class="popular">
         <div class="container">
           <div class="default__info">
             <div class="default__info_title">
@@ -156,7 +156,6 @@
                     <desc>Created with Pixso.</desc>
                     <defs />
                     <path
-                      id="Icon"
                       d="M5.19531 0.786133C4.92188 1.05957 4.94922 1.46973 5.19531 1.74316L8.50391 4.86035L0.65625 4.86035C0.273438 4.86035 0 5.16113 0 5.5166L0 6.3916C0 6.77441 0.273438 7.04785 0.65625 7.04785L8.50391 7.04785L5.19531 10.1924C4.94922 10.4658 4.94922 10.876 5.19531 11.1494L5.79688 11.751C6.07031 11.9971 6.48047 11.9971 6.72656 11.751L12.0586 6.41895C12.3047 6.17285 12.3047 5.7627 12.0586 5.48926L6.72656 0.18457C6.48047 -0.0615234 6.07031 -0.0615234 5.79688 0.18457L5.19531 0.786133Z"
                       fill="#1565D8"
                       fill-opacity="1.000000"
@@ -239,7 +238,7 @@
           </div>
         </div>
       </section>
-      <section class="recent none">
+      <section class="recent">
         <div class="container">
           <div class="default__info">
             <div class="default__info_title">
@@ -430,7 +429,6 @@
                     <desc>Created with Pixso.</desc>
                     <defs />
                     <path
-                      id="Icon"
                       d="M5.19531 0.786133C4.92188 1.05957 4.94922 1.46973 5.19531 1.74316L8.50391 4.86035L0.65625 4.86035C0.273438 4.86035 0 5.16113 0 5.5166L0 6.3916C0 6.77441 0.273438 7.04785 0.65625 7.04785L8.50391 7.04785L5.19531 10.1924C4.94922 10.4658 4.94922 10.876 5.19531 11.1494L5.79688 11.751C6.07031 11.9971 6.48047 11.9971 6.72656 11.751L12.0586 6.41895C12.3047 6.17285 12.3047 5.7627 12.0586 5.48926L6.72656 0.18457C6.48047 -0.0615234 6.07031 -0.0615234 5.79688 0.18457L5.19531 0.786133Z"
                       fill="#1565D8"
                       fill-opacity="1.000000"
@@ -441,69 +439,479 @@
               </div>
             </div>
           </div>
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="case__card recommend__card">
-                  <div class="recommend__card_image case__card_image">
-                    <img
-                      src="/content/main/recommend/Image.png"
-                      alt="Cheap Airline"
-                    />
-                  </div>
-                  <div class="recommend__card_info case__card_info">
-                    <div class="recommend__card_info_tag">
-                      <div>
-                        <strong>FEATURED</strong>
-                      </div>
+          <div class="case__swiper_wrapper">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="case__card">
+                    <div class="case__card_image">
+                      <img
+                        src="/content/main/recommend/Image.png"
+                        alt="Cheap Airline"
+                      />
                     </div>
-                    <div class="recommend__card_info_title">
-                      <h2 class="title2 title2_recommend">
-                        Cheap Airline Tickets Great Ways To Save
-                      </h2>
-                    </div>
-                    <div class="recommend__card_info_subtitle">
-                      <p class="subtitleP subtitleP_recommend">
-                        In this digital generation where information can be
-                        easily obtained within seconds, business cards ...
-                      </p>
-                    </div>
-                    <div class="recommend__card_info_user">
-                      <div class="recommend__card_user_text">
-                        <div class="user_info_avatar">
-                          <img
-                            src="/content/main/recommend/avatar.png"
-                            alt="avatar"
-                          />
+                    <div class="case__card_info">
+                      <div class="case__card_info_tag">
+                        <div>
+                          <strong>FEATURED</strong>
                         </div>
-                        <div class="user_info_name">
-                          <span>Viola Manisa</span>
-                          <div class="user_info_name_wrapper">
-                            <div class="user_info_name_wrapper_img">
-                              <img
-                                src="/content/main/recommend/verified.svg"
-                                alt="verified"
-                              />
+                      </div>
+                      <div class="case__card_info_title">
+                        <h2 class="title2 title2_case">
+                          Cheap Airline Tickets Great Ways To Save
+                        </h2>
+                      </div>
+                      <div class="case__card_info_subtitle">
+                        <p class="subtitleP subtitleP_case">
+                          In this digital generation where information can be
+                          easily obtained within seconds, business cards ...
+                        </p>
+                      </div>
+                      <div class="case__card_info_user">
+                        <div class="case__card_user_text">
+                          <div class="user_info_avatar">
+                            <img
+                              src="/content/main/recommend/avatar.png"
+                              alt="avatar"
+                            />
+                          </div>
+                          <div class="user_info_name">
+                            <span>Viola Manisa</span>
+                            <div class="user_info_name_wrapper">
+                              <div
+                                class="user_info_name_wrapper_img user_info_name_wrapper_img_case"
+                              >
+                                <img
+                                  src="/content/main/recommend/verified.svg"
+                                  alt="verified"
+                                />
+                              </div>
+                              <span>Verified writer</span>
                             </div>
-                            <span>Verified writer</span>
                           </div>
                         </div>
+                        <div class="case__card_user_date">
+                          <span>02 May</span>
+                        </div>
                       </div>
-                      <div class="recommend__card_user_date">
-                        <span>02 May</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="case__card">
+                    <div class="case__card_image">
+                      <img
+                        src="/content/main/case/imageOne.jpeg"
+                        alt="Cheap Airline"
+                      />
+                    </div>
+                    <div class="case__card_info">
+                      <div class="case__card_info_tag">
+                        <div>
+                          <strong>FEATURED</strong>
+                        </div>
+                      </div>
+                      <div class="case__card_info_title">
+                        <h2 class="title2 title2_case">
+                          Cheap Airline Tickets Great Ways To Save
+                        </h2>
+                      </div>
+                      <div class="case__card_info_subtitle">
+                        <p class="subtitleP subtitleP_case">
+                          In this digital generation where information can be
+                          easily obtained within seconds, business cards ...
+                        </p>
+                      </div>
+                      <div class="case__card_info_user">
+                        <div class="case__card_user_text">
+                          <div class="user_info_avatar">
+                            <img
+                              src="/content/main/recommend/avatar.png"
+                              alt="avatar"
+                            />
+                          </div>
+                          <div class="user_info_name">
+                            <span>Viola Manisa</span>
+                            <div class="user_info_name_wrapper">
+                              <div
+                                class="user_info_name_wrapper_img user_info_name_wrapper_img_case"
+                              >
+                                <img
+                                  src="/content/main/recommend/verified.svg"
+                                  alt="verified"
+                                />
+                              </div>
+                              <span>Verified writer</span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="case__card_user_date">
+                          <span>02 May</span>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">Slide 2</div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
+            <div class="case__buttons_wrapper">
+              <div class="case-button-prev case-button">
+                <button>
+                  <img src="/content/main/case/prev.svg" alt="" />
+                </button>
+              </div>
+              <div class="case-button-next case-button">
+                <button>
+                  <img src="/content/main/case/next.svg" alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="all ">
+        <div class="container">
+          <div class="default__info">
+            <div class="default__info_title">
+              <h2 class="title2 title2_default">All Articles</h2>
+            </div>
+            <div class="default__info_wrapper">
+              <div class="default__info_subtitle">
+                <p class="subtitleP subtitleP_default">
+                  We share common trends, strategies ideas, opinions, short &
+                  long stories from the team behind company.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="all__row">
+            <div class="all__row_cards">
+              <div class="all__row_card all__row_card_one">
+                <div class="default_tag tag_popular">FEATURED</div>
+                <div class="all__row_card_title">
+                  <h2 class="title2 title2_all">
+                    How to prevent and protect your family from Carbon monoxide
+                  </h2>
+                </div>
+                <div class="card_info_user">
+                  <div class="card_user_text">
+                    <div class="user_info_avatar">
+                      <img
+                        src="/content/main/popular/avatarTwo.png"
+                        alt="avatar"
+                      />
+                    </div>
+                    <div class="user_info_name user_info_name_dark">
+                      <span>Viola Manisa</span>
+                      <div class="user_info_name_wrapper">
+                        <div class="user_info_name_wrapper_img">
+                          <img
+                            src="/content/main/recommend/verified.svg"
+                            alt="verified"
+                          />
+                        </div>
+                        <span>Verified writer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card_user_date card_user_date_dark">
+                    <span>02 May</span>
+                  </div>
+                </div>
+              </div>
+              <div class="all__row_card all__row_card_two">
+                <div class="default_tag tag_popular">FEATURED</div>
+                <div class="all__row_card_title">
+                  <h2 class="title2 title2_all">
+                    How to prevent and protect your family from Carbon monoxide
+                  </h2>
+                </div>
+                <div class="card_info_user">
+                  <div class="card_user_text">
+                    <div class="user_info_avatar">
+                      <img
+                        src="/content/main/popular/avatarTwo.png"
+                        alt="avatar"
+                      />
+                    </div>
+                    <div class="user_info_name user_info_name_dark">
+                      <span>Viola Manisa</span>
+                      <div class="user_info_name_wrapper">
+                        <div class="user_info_name_wrapper_img">
+                          <img
+                            src="/content/main/recommend/verified.svg"
+                            alt="verified"
+                          />
+                        </div>
+                        <span>Verified writer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card_user_date card_user_date_dark">
+                    <span>02 May</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="small_row all_row">
+            <div class="small__row_cards all__row_cards">
+              <div class="small__row_card all__row_card all__row_card_one">
+                <div class="small__row_card_title all__row_card_title">
+                  <h3 class="title3 title3_recent title3_small">
+                    Future of Work
+                  </h3>
+                </div>
+                <div class="small__row_card_subtitle all__row_card_subtitle">
+                  <p class="subtitleP subtitleP_small subtitleP_recent">
+                    Majority of peole will work in jobs that don’t exist today.
+                  </p>
+                </div>
+                <div class="card_info_user">
+                  <div class="card_user_text">
+                    <div class="user_info_avatar">
+                      <img
+                        src="/content/main/recommend/avatar.png"
+                        alt="avatar"
+                      />
+                    </div>
+                    <div class="user_info_name user_info_name_dark">
+                      <span>Viola Manisa</span>
+                      <div class="user_info_name_wrapper">
+                        <div class="user_info_name_wrapper_img">
+                          <img
+                            src="/content/main/recommend/verified.svg"
+                            alt="verified"
+                          />
+                        </div>
+                        <span>Verified writer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card_user_date card_user_date_dark">
+                    <span>02 May</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="small__row_cards all__row_cards">
+              <div class="small__row_card all__row_card all__row_card_two">
+                <div class="small__row_card_title all__row_card_title">
+                  <h3 class="title3 title3_recent title3_small">
+                    Future of Work
+                  </h3>
+                </div>
+                <div class="small__row_card_subtitle all__row_card_subtitle">
+                  <p class="subtitleP subtitleP_small subtitleP_recent">
+                    Majority of peole will work in jobs that don’t exist today.
+                  </p>
+                </div>
+                <div class="card_info_user">
+                  <div class="card_user_text">
+                    <div class="user_info_avatar">
+                      <img
+                        src="/content/main/recommend/avatar.png"
+                        alt="avatar"
+                      />
+                    </div>
+                    <div class="user_info_name user_info_name_dark">
+                      <span>Viola Manisa</span>
+                      <div class="user_info_name_wrapper">
+                        <div class="user_info_name_wrapper_img">
+                          <img
+                            src="/content/main/recommend/verified.svg"
+                            alt="verified"
+                          />
+                        </div>
+                        <span>Verified writer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card_user_date card_user_date_dark">
+                    <span>02 May</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="small__row_cards all__row_cards">
+              <div class="small__row_card all__row_card all__row_card_three">
+                <div class="small__row_card_title all__row_card_title">
+                  <h3 class="title3 title3_recent title3_small">
+                    Future of Work
+                  </h3>
+                </div>
+                <div class="small__row_card_subtitle all__row_card_subtitle">
+                  <p class="subtitleP subtitleP_small subtitleP_recent">
+                    Majority of peole will work in jobs that don’t exist today.
+                  </p>
+                </div>
+                <div class="card_info_user">
+                  <div class="card_user_text">
+                    <div class="user_info_avatar">
+                      <img
+                        src="/content/main/recommend/avatar.png"
+                        alt="avatar"
+                      />
+                    </div>
+                    <div class="user_info_name user_info_name_dark">
+                      <span>Viola Manisa</span>
+                      <div class="user_info_name_wrapper">
+                        <div class="user_info_name_wrapper_img">
+                          <img
+                            src="/content/main/recommend/verified.svg"
+                            alt="verified"
+                          />
+                        </div>
+                        <span>Verified writer</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card_user_date card_user_date_dark">
+                    <span>02 May</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="default__info_button all__info_button">
+            <button>
+              More articles
+              <svg
+                width="12.243164"
+                height="11.935547"
+                viewBox="0 0 12.2432 11.9355"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <desc>Created with Pixso.</desc>
+                <defs />
+                <path
+                  d="M5.19531 0.786133C4.92188 1.05957 4.94922 1.46973 5.19531 1.74316L8.50391 4.86035L0.65625 4.86035C0.273438 4.86035 0 5.16113 0 5.5166L0 6.3916C0 6.77441 0.273438 7.04785 0.65625 7.04785L8.50391 7.04785L5.19531 10.1924C4.94922 10.4658 4.94922 10.876 5.19531 11.1494L5.79688 11.751C6.07031 11.9971 6.48047 11.9971 6.72656 11.751L12.0586 6.41895C12.3047 6.17285 12.3047 5.7627 12.0586 5.48926L6.72656 0.18457C6.48047 -0.0615234 6.07031 -0.0615234 5.79688 0.18457L5.19531 0.786133Z"
+                  fill="#1565D8"
+                  fill-opacity="1.000000"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__image"></div>
+      <div class="footer__info">
+        <div class="container">
+          <div class="footer__info_wrapper">
+            <div class="footer__wrapper_form">
+              <div class="footer__form_title">
+                <h2 class="title2 title2_form">
+                  Get our stories delivered From us to your inbox weekly.
+                </h2>
+              </div>
+              <form>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email"
+                />
+                <button>Get started</button>
+              </form>
+              <div class="footer__form_subtitle">
+                <p class="subtitleP subtitleP_form">
+                  Get a response tomorrow if you submit by 9pm today. If we
+                  received after 9pm will get a reponse the following day.
+                </p>
+              </div>
+            </div>
+            <div class="footer__wrapper_card">
+              <div class="footer__card_img">
+                <img
+                  src="/content/footer/footerForm/imageCard.jpeg"
+                  alt="The best aticles every week"
+                />
+              </div>
+              <div class="footer_card_wrapper">
+                <div class="footer__card_title">
+                  <h4 class="title4 title4_card">
+                    The best aticles every week
+                  </h4>
+                </div>
+                <div class="footer__card_subtitle">
+                  <p class="subtitleP subtitleP_card">
+                    Our insurance plans offers are priced the same everywhere
+                    else.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_nav">
+        <div class="container">
+          <div class="footer__grid">
+            <div class="footer__grid_logotype">
+              <img src="/content/footer/footerNav/logotype.svg" alt="heya" />
+              <p class="subtitleP subtitleP_nav">
+                Build a modern and creative website with crealand
+              </p>
+              <ul class="grid__logotype_list">
+                <li class="grid__logotype_item"><a href="#!">twitter</a></li>
+                <li class="grid__logotype_item"><a href="#!">linkedin</a></li>
+                <li class="grid__logotype_item"><a href="#!">instagram</a></li>
+                <li class="grid__logotype_item"><a href="#!">google</a></li>
+                <li class="grid__logotype_item"><a href="#!">youtube</a></li>
+              </ul>
+            </div>
+            <div class="footer__grid_product">
+              <ul class="footer_list">
+                <li class="footer_item footer_item_title">Product</li>
+                <li class="footer_item"><a href="#!">Landingpage</a></li>
+                <li class="footer_item"><a href="#!">Features</a></li>
+                <li class="footer_item"><a href="#!">Documentation</a></li>
+                <li class="footer_item"><a href="#!">Referral Program</a></li>
+                <li class="footer_item"><a href="#!">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="footer__grid_services">
+              <ul class="footer_list">
+                <li class="footer_item footer_item_title">Services</li>
+                <li class="footer_item"><a href="#!">Documentation</a></li>
+                <li class="footer_item"><a href="#!">Design</a></li>
+                <li class="footer_item"><a href="#!">Themes</a></li>
+                <li class="footer_item"><a href="#!">Illustrations</a></li>
+                <li class="footer_item"><a href="#!">UI Kit</a></li>
+              </ul>
+            </div>
+            <div class="footer__grid_company">
+              <ul class="footer_list">
+                <li class="footer_item footer_item_title">Company</li>
+                <li class="footer_item"><a href="#!">About</a></li>
+                <li class="footer_item"><a href="#!">Terms</a></li>
+                <li class="footer_item"><a href="#!">Privacy Policy</a></li>
+                <li class="footer_item"><a href="#!">Careers</a></li>
+              </ul>
+            </div>
+            <div class="footer__grid_more">
+              <ul class="footer_list">
+                <li class="footer_item footer_item_title">More</li>
+                <li class="footer_item"><a href="#!">Documentation</a></li>
+                <li class="footer_item"><a href="#!">License</a></li>
+                <li class="footer_item"><a href="#!">Changelog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <div class="container">
+          <div class="copyright">
+            <strong>Copyright © <span id="copyrightYear"></span>. Crafted with love.</strong>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

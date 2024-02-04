@@ -1,0 +1,18 @@
+.footer__copyright {
+  background-color: $colorFooter;
+  padding-bottom: 82px;
+
+  strong {
+    text-align: center;
+    color: $colorAccentMuted;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+
+.copyright {
+    text-align: center;
+}

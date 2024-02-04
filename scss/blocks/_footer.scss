@@ -1,0 +1,116 @@
+.footer {
+  //   background-color: $colorFooter;
+}
+
+.footer__image {
+  height: 175px;
+
+  background-image: url(/content/footer/footerForm/bgFooter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer__info {
+  background-color: $colorFooter;
+
+  border-top: 1px dashed $colorAccentMuted;
+  border-bottom: 1px dashed $colorAccentMuted;
+}
+.container {
+}
+
+.footer__info_wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 92px;
+  padding: 11px 0 96px;
+}
+
+.footer__wrapper_form {
+  form {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+
+    margin-bottom: 24px;
+  }
+
+  input {
+    border-radius: 8px;
+    background: $colorWhite;
+    padding: 16px;
+
+    width: 100%;
+    max-width: 320px;
+  }
+
+  button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+    background: rgb(21, 101, 216);
+    padding: 16px 32px;
+
+    color: $colorWhite;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: center;
+
+    transition: background-color 0.1s linear;
+
+    &:hover {
+      background-color: $colorAccentHover;
+    }
+  }
+}
+.footer__form_title {
+  margin-bottom: 60px;
+}
+.title2 {
+}
+.title2_form {
+}
+.footer__form_subtitle {
+}
+.subitlteP {
+}
+.subtitileP_form {
+}
+
+.footer__wrapper_card {
+  background-color: $colorWhite;
+  border-radius: 16px;
+  padding: 8px 8px 24px;
+
+  max-width: 466px;
+}
+.footer__card_img {
+  margin-bottom: 28px;
+
+  img {
+    border-radius: 12px;
+  }
+}
+
+.footer_card_wrapper {
+  padding: 0px 32px;
+}
+
+.footer__card_title {
+  margin-bottom: 12px;
+}
+.title4 {
+}
+.title4_card {
+}
+.footer__card_subtitle {
+}
+.subtitleP {
+}
+.subtitleP_card {
+}

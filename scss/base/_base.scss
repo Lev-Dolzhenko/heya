@@ -44,6 +44,14 @@ a {
   &_popular {
     color: $colorWhite;
   }
+
+  &_all {
+    color: $colorWhite;
+  }
+
+  &_form {
+    color: $colorWhite;
+  }
 }
 
 .title3 {
@@ -54,8 +62,16 @@ a {
   line-height: 36px;
   letter-spacing: 0.2px;
   text-align: left;
-  &_small {
-  }
+}
+
+.title4 {
+  color: $colorTitle;
+  font-family: $gotham;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  text-align: left;
 }
 
 .subtitleP {
@@ -73,7 +89,18 @@ a {
     line-height: 30px;
     letter-spacing: 0px;
     text-align: left;
+  }
 
-    
+  &_form {
+    color: $colorAccentMuted;
+  }
+
+  &_card {
+    color: $colorAccentMuted;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
   }
 }

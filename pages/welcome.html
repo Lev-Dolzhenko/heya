@@ -16,6 +16,7 @@
     />
   </head>
   <body>
+    <div class="overlay"></div>
     <header class="header 6 n1one">
       <div class="container">
         <div class="header__row">
@@ -29,11 +30,39 @@
               <li class="header__nav_item">
                 <a class="header__nav_link" href="#!">Home</a>
               </li>
-              <li class="header__nav_item header__nav_item_menu">
-                Landings <img src="/content/header/arrow.svg" alt="show menu" />
+              <li
+                data-gropdown-button="landings"
+                class="header__nav_item header__nav_item_menu langings_link data-gropdown-button"
+              >
+                Landings
+                <img src="/content/header/arrow.svg" alt="show menu" />
+                <div
+                  data-gropdown="landings"
+                  class="langings_dropdown data-gropdown none"
+                >
+                  <ul>
+                    <li>Home</li>
+                    <li>Docs</li>
+                    <li>Help</li>
+                  </ul>
+                </div>
               </li>
-              <li class="header__nav_item header__nav_item_menu">
-                Pages <img src="/content/header/arrow.svg" alt="show menu" />
+              <li
+                data-gropdown-button="pages"
+                class="header__nav_item header__nav_item_menu pages_link data-gropdown-button"
+              >
+                Pages
+                <img src="/content/header/arrow.svg" alt="show menu" />
+                <div
+                  data-gropdown="pages"
+                  class="pages_dropdown data-gropdown none"
+                >
+                  <ul>
+                    <li>Home</li>
+                    <li>Docs</li>
+                    <li>Help</li>
+                  </ul>
+                </div>
               </li>
               <li class="header__nav_item">
                 <a class="header__nav_link" href="#!">Docs</a>
@@ -44,6 +73,41 @@
               <li class="header__nav_item">
                 <button>Get it now</button>
               </li>
+            </ul>
+          </nav>
+          <nav class="header__row_nav_mobile">
+            <ul class="header__nav_list_mobile">
+              <li class="header__nav_item_mobile">Home</li>
+              <li
+                data-gropdown-button="landings"
+                class="data-gropdown-button header__nav_item_mobile header__nav_item_mobile_dropdown"
+              >
+                Landings <img src="/content/header/arrow.svg" alt="arrow" />
+              </li>
+              <ul
+                data-gropdown="landings"
+                class="data-gropdown header__nav_item_mobile_sub none"
+              >
+                <li>Home</li>
+                <li>Docs</li>
+                <li>Help</li>
+              </ul>
+              <li
+                data-gropdown-button="pages"
+                class="data-gropdown-button header__nav_item_mobile header__nav_item_mobile_dropdown"
+              >
+                Pages <img src="/content/header/arrow.svg" alt="arrow" />
+              </li>
+              <ul
+                data-gropdown="pages"
+                class="data-gropdown header__nav_item_mobile_sub none"
+              >
+                <li>Home</li>
+                <li>Docs</li>
+                <li>Help</li>
+              </ul>
+              <li class="header__nav_item_mobile">Docs</li>
+              <li class="header__nav_item_mobile">Help</li>
             </ul>
           </nav>
           <div id="burgerIcon" class="header__row_nav_burger">
@@ -69,16 +133,55 @@
               <img src="/content/header/search.svg" alt="search" />
               <!-- </div> -->
               <input type="text" placeholder="Search article" />
-              <button>Search</button>
+              <div class="form__wrapper_tags">
+                <div data-search-tag="design" class="form__wrapper_tag none">
+                  <button data-close="design" class="button_tag">
+                    <img
+                      class="closeTag"
+                      src="/content/header/closeTag.svg"
+                      alt="closeTag"
+                    /></button
+                  >Design
+                </div>
+                <div
+                  data-search-tag="experience"
+                  class="form__wrapper_tag none"
+                >
+                  <button data-close="experience" class="button_tag">
+                    <img
+                      class="experience"
+                      src="/content/header/closeTag.svg"
+                      alt="closeTag"
+                    /></button
+                  >User Experience
+                </div>
+                <div
+                  data-search-tag="interfaces"
+                  class="form__wrapper_tag none"
+                >
+                  <button data-close="interfaces" class="button_tag">
+                    <img
+                      class="interfaces"
+                      src="/content/header/closeTag.svg"
+                      alt="closeTag"
+                    /></button
+                  >User Interfaces
+                </div>
+              </div>
+              <button class="button__form_search">Search</button>
             </form>
             <div class="header__tags">
               <div class="header__tags_subtitle">
                 <p>Popular Tags :</p>
               </div>
               <ul class="header__tags_list">
-                <li class="header__tags_item">Design</li>
-                <li class="header__tags_item">User Experience</li>
-                <li class="header__tags_item">User Interfaces</li>
+                <li data-tag="design" class="header__tags_item">Design</li>
+                <li data-tag="experience" class="header__tags_item">
+                  User Experience
+                </li>
+                <li data-tag="interfaces" class="header__tags_item">
+                  User Interfaces
+                </li>
               </ul>
             </div>
           </div>

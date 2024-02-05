@@ -1,5 +1,4 @@
-.header__search {
-}
+
 .header__search_title {
   margin-bottom: clamp(20px, 0.795rem + 2.27vw, 40px);
 }
@@ -27,7 +26,7 @@
     width: 95%;
   }
 
-  button {
+  .button__form_search {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,8 +43,35 @@
 
     transition: transform 0.1s linear;
 
+    margin-left: 20px;
+
     &:hover {
       transform: scale(1.06);
     }
   }
+}
+
+.form__wrapper_tags {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.button_tag {
+  width: 15px;
+}
+
+.form__wrapper_tag {
+  display: flex;
+  align-items: start;
+
+  text-wrap: nowrap;
+  img {
+    width: 15px;
+  }
+}
+
+
+.header__tags_item.active {
+  background-color: $colorAccent;
 }
